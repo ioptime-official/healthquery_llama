@@ -1,10 +1,10 @@
 
 ---
 
-# Intelligent Health Query Assistant - Powered by Llama 3B
+# Health Query - Powered by Llama 3B
 
 ## Description
-The Intelligent Health Query Assistant is a project that leverages the power of the Llama 3B NLP generative model, fine-tuned specifically on a medical dataset related to HIV. This model is designed to answer questions related to HIV disease, making it a valuable tool for healthcare professionals and researchers.
+The Intelligent Health Query Assistant is a project that leverages the power of the Llama 3B NLP generative model, fine-tuned specifically on a medical dataset related to HIV. This model is fine tuned to answer questions related to HIV disease, By providing query model can generate response of query.
 
 ## Model Information
 - **Base Model**: RedPajama-INCITE-Base-3B-v1
