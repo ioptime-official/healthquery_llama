@@ -18,7 +18,7 @@ The Intelligent Health Query Assistant is a project that leverages the power of 
   - Question Doctors
   - WebMD
 - **Dataset Size**: After extraction, the dataset contains a total of 3,253 rows.
-- **Data Preprocessing**: Data preprocessing was performed to format the dataset in a way that the model accepts it. The model expects data in "instruction" and "output" in JSON format, so the dataset was transformed accordingly.
+- **Data Preprocessing**: Data preprocessing was performed to format the dataset in a way that the model accepts it. The model expects data in "instruction" and "output" cloumn, in JSON format, so the dataset was transformed accordingly.
 - **Sample input data** : Before fitting data to model the data should be in following format.
  ```bash
   def generate_prompt(data_point):
