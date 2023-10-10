@@ -5,6 +5,11 @@
 
 ## Description
 The Intelligent Health Query Assistant is a project that leverages the power of the Llama 3B NLP generative model, fine-tuned specifically on a medical dataset related to HIV. This model is fine tuned to answer questions related to HIV disease, By providing query model can generate response of query.
+## Project workflow 
+![llama_flow drawio](https://github.com/ioptime-official/healthquery_llama/assets/72988974/0c0d12b7-37da-40b7-bf53-7ce81ca890d4)
+
+<p align="justify">In this project, we begin by extracting relevant data pertaining to HIV from a diverse array of medical resources, including eHealth Forum, iCliniq, Question Doctors, and WebMD. With our data collected, we proceed to select the LLama 3B model for fine-tuning, a sophisticated NLP generative model. We then ensure that our extracted data is properly formatted into a template that aligns with the model's input requirements. To make the fine-tuning process accessible even on low-end hardware, we employ the LoRA (Low-Resource Adaptation) technique.
+The core of our project involves training the model using this specialized dataset. Once the training is complete, the fine-tuned model files are available for download. For testing purposes, we load the base 3B model, and to enhance its capabilities, we integrate the LoRA fine-tune files. With the model primed and ready, we can now harness its power to make accurate predictions and respond to inquiries related to HIV disease. This comprehensive approach ensures the model's effectiveness in providing valuable insights into HIV-related queries.</p>
 
 ## Model Information
 - **Base Model**: RedPajama-INCITE-Base-3B-v1
